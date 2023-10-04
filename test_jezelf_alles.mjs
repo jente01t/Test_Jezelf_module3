@@ -6,6 +6,53 @@ const userInput = readline.createInterface({input, output});
 
 
 
+
+let rijen = 3;
+let kolommen = 4;
+let getal = 0;
+
+for(let i = 1; i <= rijen; i++) {
+    let rij = '';
+    for( let j = 1; j <= kolommen; j++) {
+        getal = i * j
+        rij += getal + ' ';
+
+    }console.log(rij);
+}        
+
+
+process.exit();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 let getal1 = 0;
 let out1 = '';
 let getal2 = 0;
@@ -45,3 +92,4 @@ console.log(out3);
 
 
 process.exit();
+*/
